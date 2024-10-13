@@ -121,9 +121,8 @@ make_heatmap(
 )
 
 #------------------------------------------------------------------------------#
-#     Dataframe with years of participation by country will normalize the      #
-#     heatmap, by dividing each country's votes participation years. Any year  #
-#     that a country votes counts as a participation year                      #
+#     Normalize Dataframe by dividing voteds recieved from any country by      #
+#     the giving countrys years or participation                               #
 #------------------------------------------------------------------------------#
 
 df_country_participation_years = (
